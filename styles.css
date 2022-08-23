@@ -1,11 +1,11 @@
 .father {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  height: 200vh;
 }
 
 .child {
-  height: 200px;
+  flex-basis: 300px;
   background-color: peru;
   color: white;
   font-size: 50px;
