@@ -5,7 +5,6 @@
 }
 
 .child {
-  width: 300px;
   height: 200px;
   background-color: peru;
   color: white;
@@ -17,5 +16,5 @@
 
 .child:nth-child(2) {
   background-color: #000;
-  flex-shrink: 2;
+  flex-grow: 1;
 }
