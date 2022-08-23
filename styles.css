@@ -1,0 +1,18 @@
+.father {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 200vh;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: peru;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
